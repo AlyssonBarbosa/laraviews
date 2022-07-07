@@ -14,7 +14,7 @@ class LaraviewsServiceProvider extends ServiceProvider
     public function register()
     {
         $this->publishes([
-            __DIR__ . '/views/index.blade.php' => $this->app->resourcePath() . '/views/crud/index.blade.php',
+            __DIR__ . '/views/crud' => $this->app->resourcePath() . '/views/crud',
         ], 'lara-views');
     }
 
