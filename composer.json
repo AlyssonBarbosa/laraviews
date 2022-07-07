@@ -1,5 +1,7 @@
 {
     "name": "alysson/laravel-views",
+    "description": "Cria uma pasta de crud",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Alysson\\LaravelViews\\": "src/"
