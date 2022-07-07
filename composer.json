@@ -1,0 +1,29 @@
+{
+    "name": "alysson/laravel-views",
+    "autoload": {
+        "psr-4": {
+            "Alysson\\LaravelViews\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Alysson\\LaravelViews\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Alysson\\LaravelViews\\LaraviewsServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Alysson Oliveira",
+            "email": "alysson.o@willfly.live"
+        }
+    ],
+    "require": {
+        "orchestra/testbench": "^6.24"
+    }
+}
