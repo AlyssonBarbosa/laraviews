@@ -1,6 +1,6 @@
 <?php
 
-namespace Alysson\Laraviews;
+namespace Alysson\LaravelViews;
 
 use Illuminate\Support\ServiceProvider;
 
