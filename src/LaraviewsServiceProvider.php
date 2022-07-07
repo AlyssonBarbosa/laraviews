@@ -15,7 +15,7 @@ class LaraviewsServiceProvider extends ServiceProvider
     {
         $this->publishes([
             __DIR__ . '/views/crud' => $this->app->resourcePath() . '/views/crud',
-        ], 'lara-views');
+        ], 'laravel-assets');
     }
 
     /**
